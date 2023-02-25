@@ -26,16 +26,17 @@ namespace TAREA1
 
             DisplayAlert("la resta de los numeros es", total.ToString(), "ok");
 
-            txtnumero1.Text = "";
-            txtnumero2.Text = "";
+            //txtnumero1.Text = "";
+            //txtnumero2.Text = "";
 
-
-
+            return;
 
         }
         
         private void btnsumar_Clicked(object sender, EventArgs e)
         {
+ 
+
             double num1, num2, suma, total;
             num1 = double.Parse(txtnumero1.Text);
             num2 = double.Parse(txtnumero2.Text);
@@ -44,8 +45,12 @@ namespace TAREA1
             total = suma;
             DisplayAlert("la suma de los numeros es", total.ToString(), "ok");
 
-            //txtnumero1.Text = "";
-            //txtnumero2.Text = "";
+                //txtnumero1.Text = "";
+                //txtnumero2.Text =
+
+
+             return;
+
         }
 
       
